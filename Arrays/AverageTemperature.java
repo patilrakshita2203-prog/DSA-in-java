@@ -7,7 +7,7 @@ public class AverageTemperature{
             int[] temps=new int[Days];
             int sum=0;
             for(int i=0; i< Days ; i++){
-                System.out.println(" Day " + i + " Temperature " );
+                System.out.println(" Day " + (i+1) + " Temperature " );
                 temps[i]=sc.nextInt();
                 sum+=temps[i];
             }
@@ -20,4 +20,5 @@ public class AverageTemperature{
      System.out.println("Number of Days above average = " + count);
                     sc.close();
     }
+
 }
