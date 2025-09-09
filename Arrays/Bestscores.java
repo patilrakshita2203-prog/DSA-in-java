@@ -23,6 +23,7 @@ public class Main{
 	public static void main(String[]args){
 	    int[] array ={20,40,30,78,98,24};
 	    int[] Bestscore =  findTwoBestscores(array);
-	    System.out.println("BestScore = " + Bestscore[0] + " , " + Bestscore[1] + " and " + Bestscore[2]);
+	    System.out.println("ThreeBestScores = " + Bestscore[0] + " , " + Bestscore[1] + " and " + Bestscore[2]);
 	}
 }
+//Output = ThreeBestScores = 98 , 78 and 40
