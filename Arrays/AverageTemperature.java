@@ -20,5 +20,5 @@ public class AverageTemperature{
      System.out.println("Number of Days above average = " + count);
                     sc.close();
     }
-
 }
+
