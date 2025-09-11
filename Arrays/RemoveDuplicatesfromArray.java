@@ -24,3 +24,4 @@ public class Main {
       System.out.println("Duplicate Elements are = " + Remove);
   }
 }
+//Output = [1,2,3,4,5]
