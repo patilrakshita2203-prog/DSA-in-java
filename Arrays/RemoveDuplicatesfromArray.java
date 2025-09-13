@@ -21,8 +21,9 @@ public class Main {
   public static void main(String[]args){
       int[] array = {1, 1, 2, 2, 3, 4, 5};
       int[] unique = removeDuplicates(array);
-      System.out.println("Duplicate Elements are = " + Arrays.toString(unique));
+      System.out.println("Unique Elements are = " + Arrays.toString(unique));
   }
 }
 //Output = [1,2,3,4,5]
+
 
