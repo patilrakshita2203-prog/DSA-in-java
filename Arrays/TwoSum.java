@@ -17,3 +17,4 @@ public class Main{
 	    System.out.println("TWO SUM = " + Arrays.toString(Sum));
 	}
 }
+//Output - TWO SUM = [0,2]
