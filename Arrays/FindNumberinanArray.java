@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         int[] intArray = {1, 2, 3, 4, 5, 6};
-        int valueToSearch = 1;
+        int valueToSearch = 2;
 
         int result = searchInArray(intArray, valueToSearch);
 
@@ -22,3 +22,5 @@ public class Main {
         }
     }
 }
+//Output - 2 found at index 1
+
